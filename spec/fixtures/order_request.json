@@ -1,0 +1,136 @@
+{
+  "request_id": 123456,
+  "parameters": {
+    "delighted_api_key": "secret",
+    "delay": 0
+  },
+  "order": {
+    "number": "R805285255",
+    "channel": "spree",
+    "email": "spree@example.com",
+    "currency": "USD",
+    "placed_on": "2014-01-27T19:43:19.665Z",
+    "updated_at": "2014-01-27T19:43:19.774Z",
+    "status": "complete",
+    "totals": {
+      "item": 130.0,
+      "adjustment": 0.0,
+      "tax": 0.0,
+      "shipping": 5.0,
+      "payment": 135.0,
+      "order": 135.0
+    },
+    "line_items": [
+      {
+        "name": "Case - HP Compaq nx7",
+        "sku": "HP Server Case",
+        "external_ref": "",
+        "quantity": 1,
+        "price": 35.0,
+        "variant_id": 357,
+        "options": {
+        }
+      },
+      {
+        "name": "Lot Tracked Medical Supplies 1",
+        "sku": "20Jeans Boot Cut",
+        "external_ref": "",
+        "quantity": 1,
+        "price": 30.0,
+        "variant_id": 368,
+        "options": {
+        }
+      },
+      {
+        "name": "Lot Tracked Medical Supplies 2",
+        "sku": "400 Watt Power Supply",
+        "external_ref": "",
+        "quantity": 1,
+        "price": 65.0,
+        "variant_id": 371,
+        "options": {
+        }
+      }
+    ],
+    "adjustments": [
+      {
+        "name": "Shipping",
+        "value": 5.0
+      }
+    ],
+    "shipping_address": {
+      "firstname": "Luis",
+      "lastname": "Shipping Braga",
+      "address1": "Avenue",
+      "address2": "",
+      "zipcode": "2201",
+      "city": "Bethesda",
+      "state": "Maryland",
+      "country": "US",
+      "phone": "555 123-4567"
+    },
+    "billing_address": {
+      "firstname": "Luis",
+      "lastname": "Billing Braga",
+      "address1": "Avenue",
+      "address2": "",
+      "zipcode": "2202",
+      "city": "Bethesda",
+      "state": "Maryland",
+      "country": "US",
+      "phone": "555 123-4567"
+    },
+    "payments": [
+      {
+        "number": 19,
+        "status": "completed",
+        "amount": 135.0,
+        "payment_method": "Credit Card"
+      }
+    ],
+    "shipments": [
+      {
+        "number": "H34141763748",
+        "cost": 5.0,
+        "status": "ready",
+        "stock_location": null,
+        "shipping_method": "UPS Ground (USD)",
+        "tracking": null,
+        "updated_at": null,
+        "shipped_at": null,
+        "items": [
+          {
+            "name": "Transfer Pricing Item",
+            "sku": "300001",
+            "external_ref": "",
+            "quantity": 1,
+            "price": 35.0,
+            "variant_id": 357,
+            "options": {
+            }
+          },
+          {
+            "name": "Lot Tracked Medical Supplies 1",
+            "sku": "L0011234",
+            "external_ref": "",
+            "quantity": 1,
+            "price": 30.0,
+            "variant_id": 368,
+            "options": {
+            }
+          },
+          {
+            "name": "Lot Tracked Medical Supplies 2",
+            "sku": "L0021234",
+            "external_ref": "",
+            "quantity": 1,
+            "price": 65.0,
+            "variant_id": 371,
+            "options": {
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
